@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add data</title>
+	<style> 
+	
+	.a1 {
+		background-color: rgba(7, 206, 7, 0.658);
+	}
+	
+	table {
+		inline-size: auto;
+		padding: 10px;
+	
+	}
+
+	label {
+		padding: 10px
+	}
+
+	h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 400;
+		background-color: rgba(128, 128, 128, 0.548);
+		padding: 10px;
+		width: 6%;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	p {
+		background-color: rgb(92, 92, 92);
+		padding: 30px;
+		color: white;
+		border-radius: 10px;
+		margin-bottom: 30px;
+		margin: auto;
+		width: 30%;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+		color:  white;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	p:hover {
+		background-color: rgb(51, 51, 51);
+		width: 40%;
+		transition: 0.5s;
+	}
+
+
+
+	</style>
+</head>
+
+<body>
+	<p><a href="index.php">Home</a></p>
+
+
+	<form action="add.php" method="post" name="add">
+		<table>
+			<h2> Aluno 1 </h2>
+				<tr>
+					<label for="name">Nome</label>
+					<input type="text" name="name1" placeholder="Seu Nome">
+				</tr>
+				<tr>
+					<label for="age">Idade</label>
+					<input type="number" name="age1" placeholder="Sua Idade">
+				</tr>
+				<tr>
+					<label for="matricula">Matricula</label>
+					<input type="number" name="matricula1" placeholder="Matricula (6 digitos)">
+				</tr>
+		</table>
+
+		<table>
+			<h2> Aluno 2 </h2>
+			<tr>
+				<label for="name">Nome</label>
+				<input type="text" name="name2" placeholder="Seu Nome">
+			</tr>
+			<tr>
+				<label for="age">Idade</label>
+				<input type="number" name="age2" placeholder="Sua Idade">
+			</tr>
+			<tr>
+				<label for="matricula">Matricula</label>
+				<input type="number" name="matricula2" placeholder="Matricula (6 digitos)">
+			</tr>
+		</table>
+		<table>
+			<h2> Aluno 3 </h2>
+			<tr>
+				<label for="name">Nome</label>
+				<input type="text" name="name3" placeholder="Seu Nome">
+			</tr>
+			<tr>
+				<label for="age">Idade</label>
+				<input type="number" name="age3" placeholder="Sua Idade">
+			</tr>
+			<tr>
+				<label for="matricula">Matricula</label>
+				<input type="number" name="matricula3" placeholder="Matricula (6 digitos)">
+			</tr>
+		</table>
+		<table>
+			<h2> Aluno 4 </h2>
+			<tr>
+				<label for="name">Nome</label>
+				<input type="text" name="name4" placeholder="Seu Nome">
+			</tr>
+			<tr>
+				<label for="age">Idade</label>
+				<input type="number" name="age4" placeholder="Sua Idade">
+			</tr>
+			<tr>
+				<label for="matricula">Matricula</label>
+				<input type="number" name="matricula4" placeholder="Matricula (6 digitos)">
+			</tr>
+		</table>
+			
+			<!-- <input type="submit" value="Enviar">-->
+			<input type="submit" name="submit" value="Add">
+		</form>
+</body>
+</html>
+
